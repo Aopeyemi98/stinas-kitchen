@@ -1,0 +1,82 @@
+:root {
+    --ubuntu-font: "Ubuntu Condensed", sans-serif;
+    --lightgold-color: #cea135;
+    --darkbrown-color: #200f0a;
+}
+
+/* footer session */
+.footer-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkbrown-color);
+    color: #cbcbcb;
+    margin-top: -4px;
+    padding-top: 24px;
+    font-family: var(--ubuntu-font);
+}
+
+.footer-session > .footer-wrapper > .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-session > .footer-wrapper > .logo img {
+    width: 150px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.footer-session > .footer-wrapper > .phone-hour-wrapper {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-session > .footer-wrapper > .phone-hour-wrapper > .hour {
+    color: var(--lightgold-color);
+    font-size: 0.8em;
+}
+
+.footer-session > .footer-wrapper > .link-wrapper {
+    margin: 40px 0px;
+    width: 400px;
+}
+
+.footer-session > .footer-wrapper > .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.footer-session > .footer-wrapper > .social-media > .social-media-icon-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.footer-session > .footer-wrapper > .social-media > .social-media-icon-wrapper > div a{
+    color: #cbcbcb;
+}
+
+.footer-session > .footer-wrapper > .social-media > .social-media-icon-wrapper > div a:hover{
+    color: #cea135;
+}
+
+.footer-session > .footer-wrapper > .copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    font-family: var(--ubuntu-font);
+    margin-bottom: 24px;
+    margin-top: 40px;
+    color: #858585;
+}

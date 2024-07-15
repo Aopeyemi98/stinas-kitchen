@@ -1,0 +1,31 @@
+:root {
+    --ubuntu-font: "Ubuntu Condensed", sans-serif;
+    --lightgold-color: #cea135;
+    --darkbrown-color: #200f0a;
+}
+
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 100px;
+}
+
+.contact-data-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wrapper > .detail-wrapper {
+    font-family: var(--ubuntu-font);
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+.wrapper > .detail-wrapper i {
+    color: #cea135;
+}
