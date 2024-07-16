@@ -12,6 +12,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +34,9 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     height: 100%;
     width: 100%;
-    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* background-size: 100%; */
     background-position: center;
     transform: skewY(-8deg);
     transform-origin: top left;
@@ -77,31 +80,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-wrapper > .page > .image-wrapper {
-    position: relative;
+    float: left;
 }
 
-.page-wrapper > .page > .image-wrapper > .caption {
-    position: absolute;
-    bottom: -505px;
-    left: 40px;
+.page-wrapper > .page > .image-wrapper figcaption {
+    margin: -20px 0px 0px 40px;
     font-weight: bold;
-    font-size: 10px;
 }
 
 .page-wrapper > .page > .image-wrapper img {
     width: 350px;
-    margin: 40px 0px 20px 0px;
+    margin: 20px 40px 20px 0px;
     border: 2px solid #cea135;
     border-radius: 2px;
-    float: left;
 }
 
 .page-wrapper > .page > .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 60px;
+    padding: 20px;
 }
 
 .page-wrapper > .page > .content p {
