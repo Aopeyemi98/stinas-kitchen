@@ -56,7 +56,7 @@
     }
 
     .hero-section {
-        padding: 40px;
+        padding: 60px 40px 40px 40px;
     }
 
     .service-session {
@@ -100,11 +100,11 @@
     }
 
     .square > .image-wrapper {
-        order: 2;
+        order: 2 !important;
     }
 
     .square > .content {
-        order: 1;
+        order: 1 !important;
     }
 
     .square > .image-wrapper img {
