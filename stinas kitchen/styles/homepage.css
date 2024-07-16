@@ -1,0 +1,98 @@
+:root {
+    --ubuntu-font: "Ubuntu Condensed", sans-serif;
+    --lightgold-color: #cea135;
+    --darkbrown-color: #200f0a;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(../images/homepage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    padding: 100px;
+}
+
+.hero-section > .upper-heading {
+    background-color: var(--darkbrown-color);
+    padding: 1px 20px;
+    width: max-content;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.hero-section > .lower-heading {
+    background-color: #cea135;
+    padding: 1px 20px;
+    width: max-content;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+.hero-section > .upper-heading > h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero-section > .upper-heading > h1 a:focus {
+    outline: none;
+}
+
+/* service session */
+.service-session {
+    background-image: url(../images/background_image.jpg);
+    background-color: #cea135;
+    background-size: cover;
+    height: 400px;
+    font-family: var(--ubuntu-font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--darkbrown-color);
+    border-top: 10px solid white;
+    box-shadow: inset 0px -26px 79px -8px var(--darkbrown-color) 
+}
+
+.service-session > .service-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.service-session > .service-wrapper .service {
+    text-align: center;
+    padding: 20px;
+    margin: 42px;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.service-session > .service-wrapper .service:hover {
+    border-bottom: 5px solid var(--darkbrown-color);
+}
+
+.service-session > .service-wrapper .service :nth-child(1) {
+    font-size: 3em;
+}
+
+.service-session > .service-wrapper .service :nth-child(2) {
+    font-size: 1.5em;
+    height: 50px;
+    transition: 1s;
+    margin: 20px 0px;
+}
+
+.service-session > .service-wrapper .service :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.service-session > .service-wrapper .service :nth-child(3) {
+    letter-spacing: 2px;
+}
+
