@@ -19,6 +19,7 @@
 .navigation-wrapper > .left-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .navigation-wrapper > .left-wrapper > .phone-icon {
