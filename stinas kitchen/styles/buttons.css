@@ -1,0 +1,38 @@
+:root {
+    --ubuntu-font: "Ubuntu Condensed", sans-serif;
+    --lightgold-color: #cea135;
+    --darkbrown-color: #200f0a;
+}
+
+.centered-btn-wrapper .btn {
+    background-color: #cea135;
+    color: var(--darkbrown-color);
+    border-radius: 26px;
+    border: 1px solid var(--darkbrown-color);
+    padding: 10px 25px;
+    font-size: 1.25em;
+    outline: none;
+    transition: 0.3s;
+    margin-top: 40px;
+}
+
+.centered-btn-wrapper .btn:hover {
+    color: #cea135;
+    background-color: var(--darkbrown-color);
+    border-color: #cea135;
+}
+
+.form > .centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form > .centered-btn-wrapper .btn {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.form > .centered-btn-wrapper .btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}

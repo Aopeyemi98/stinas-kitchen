@@ -1,0 +1,116 @@
+:root {
+    --ubuntu-font: "Ubuntu Condensed", sans-serif;
+    --lightgold-color: #cea135;
+    --darkbrown-color: #200f0a;
+}
+
+/* navigation-wrapper */
+.navigation-wrapper {
+    background-color: var(--darkbrown-color);
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    height: 190px;
+}
+
+/* left session */
+.navigation-wrapper > .left-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-wrapper > .phone-icon {
+    margin-right: 15px;
+    font-size: 2em;
+    rotate: 45deg;
+}
+
+.navigation-wrapper > .left-wrapper > .contact-hour-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navigation-wrapper > .left-wrapper > .contact-hour-wrapper > .hour {
+    font-family: var(--ubuntu-font);
+    font-size: 12px;
+}
+
+/* center session */
+.navigation-wrapper > .center-wrapper {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.navigation-wrapper > .center-wrapper > .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-wrapper > .logo img{
+    height: 100%;
+    width: 256px;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.link-wrapper > .link {
+    width: 100px;
+    text-align: center;
+}
+
+.link-wrapper > .link a{
+    color: #cbcbcb;
+    text-decoration: none;
+    font-family: var(--ubuntu-font);
+    transition: 0.5s;
+}
+
+.link-wrapper > .link a:hover {
+    color: #cea135;
+    letter-spacing: 3px;
+}
+
+/* right session */
+.navigation-wrapper > .right-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .right-wrapper > .address-wrapper {
+    text-align: end;
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .right-wrapper > .address-wrapper a {
+    text-decoration: none;
+    font-family: var(--ubuntu-font);
+    color: #cbcbcb;
+    transition: 0.8s;
+}
+
+.navigation-wrapper > .right-wrapper > .address-wrapper a:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-wrapper > .address-icon a {
+    color: #cbcbcb;
+    font-size: 2em;
+    transition: 0.8s;
+}
+
+.navigation-wrapper > .right-wrapper > .address-icon a:hover {
+    color: #cea135;
+}
+

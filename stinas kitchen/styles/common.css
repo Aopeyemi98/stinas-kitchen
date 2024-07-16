@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ubuntu-font: "Ubuntu Condensed", sans-serif;
+    --lightgold-color: #cea135;
+    --darkbrown-color: #46211a;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+}
+
+/* about styles */
+.skewed-wrapper {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skewed-wrapper > .skewed-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* background-size: 100%; */
+    background-position: center;
+    transform: skewY(-8deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.skewed-wrapper > .skewed-content-wrapper {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.skewed-wrapper > .skewed-content-wrapper > .content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-wrapper > .skewed-content-wrapper > .content > .heading{
+    width: 175px;
+    background-color: #cea135;
+    padding: 30px 10px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    text-align: center;
+    color: var(--darkbrown-color);
+}
+
+/* PAGE SESSION */
+.page-wrapper {
+    /* width: 1000px; note that you dont give the flex parent a width rather the flex item*/
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper > .page {
+    width: 1000px;
+}
+
+.page-wrapper > .page > .image-wrapper {
+    float: left;
+}
+
+.page-wrapper > .page > .image-wrapper figcaption {
+    margin: -20px 0px 0px 40px;
+    font-weight: bold;
+}
+
+.page-wrapper > .page > .image-wrapper img {
+    width: 350px;
+    margin: 20px 40px 20px 0px;
+    border: 2px solid #cea135;
+    border-radius: 2px;
+}
+
+.page-wrapper > .page > .content {
+    padding: 20px;
+}
+
+.page-wrapper > .page > .content p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* SQUARE SESSION */
+.spacer {
+    height: 80px;
+    width: 100%;
+}
+
+
+
+.square-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.square-wrapper > .squares {
+    width: 1000px;
+}
+
+.square-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -6px;
+}
+
+.square-wrapper > .squares > .square > .image-wrapper img {
+    border: 2px solid #cea135;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.square-wrapper > .squares > .square > .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square-wrapper > .squares > .square > .content h1 {
+    color: #cea135;
+    margin-bottom: 40px;
+}
+
+.square-wrapper > .squares > .square > .content a {
+    text-decoration: none;
+}
+
+.square-wrapper > .squares > .square > .content a:focus {
+    outline: none;
+}
+
+.square-wrapper > .squares > .square > .content  {
+    line-height: 30px;
+}
+
+
+
