@@ -16,3 +16,11 @@ Frontend:
 
 ## Project Outcome
 - Website: [stinas-kitchen](https://stinaskitchenandgrills.netlify.app/)
+
+## License
+
+This Project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for details.
+
+Thank you for checking out our Restaurant Website project! We hope you find it useful and enjoyable. If you have any questions or feedback, 
+feel free to reach out via email [adenugaopeyemi98@gmail.com](mailto:adenugaopeyemi98@gmail.com).
+
